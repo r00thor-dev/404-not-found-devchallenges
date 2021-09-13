@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://404-not-found-devchallenges-puce.vercel.app/404">
+    <a href="https://r00thor-dev.github.io/404-not-found-devchallenges/">
       Demo
     </a>
     <span> | </span>
