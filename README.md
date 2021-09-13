@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://404-not-found-devchallenges-puce.vercel.app/">
+    <a href="https://404-not-found-devchallenges-puce.vercel.app/404">
       Demo
     </a>
     <span> | </span>
@@ -49,7 +49,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [CSS](https://css-tricks.com/)
+- [HTML](https://www.w3.org/html/)
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 
 ## Features
 
