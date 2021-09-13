@@ -25,12 +25,14 @@ nav{
 
 nav > h4{
   font-family: "Inconsolata", sans-serif;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 main{
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
 }
@@ -47,19 +49,24 @@ main section button{
 }
 
 main section h1{
+  margin-bottom: 0;
   font-size: 2rem;
-  font-weight: bold;
+  font-weight: 700;
 } 
 
 main section p{
+  margin-top: 40px;
   font-size: 1rem;
+  font-weight: 400;
   line-height: 27px;
   letter-spacing: -0.035em;
 } 
 
 main section button{
+  margin-top: 40px;
   font-size: 0.75rem;
-  padding: 1.5em;
+  font-weight: 700;
+  padding: 1rem 2.5em;
   background-color: #333333;
   color: #fff;
 }
@@ -84,19 +91,27 @@ footer p{
   main section{
     flex-grow: 1;
     flex-basis: 0;
+    flex-shrink: 0;
+  }
+
+  main section > img{
+    max-width: 550px;
   }
 
   main section h1{
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin-top: 0;
   } 
 
   main section p{
-    font-size: 1rem;
+    font-size: 0.8rem;
+    max-width: 25ch;
+    margin-top: 40px;
   } 
 
   main section button{
-    font-size: 0.75rem;
-    padding: 1.5em;
+    font-size: 0.7rem;
+    margin-top: 40px;
   }
 
   footer p{
@@ -105,12 +120,34 @@ footer p{
 }
 
 @media (min-width: 768px){
-  
+  main section h1{
+    font-size: 2.5rem;
+  } 
+
+  main section p{
+    font-size: 1rem;
+    max-width: 25ch;
+    margin-top: 30px;
+  } 
+
+  main section button{
+    font-size: 0.8rem;
+    margin-top: 30px;
+  }
 }
 
-@media (min-width: 992px){
-  main section img{
-    max-width: 500px;
-    height: auto;
+@media (min-width: 1024px){
+  main section h1{
+    font-size: 64px;
+  } 
+
+  main section p{
+    font-size: 24px;
+    margin-top: 40px;
+  } 
+
+  main section button{
+    font-size: 14px;
+    margin-top: 40px;
   }
 }
